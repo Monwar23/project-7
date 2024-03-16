@@ -1,3 +1,4 @@
+import PropTypes from 'prop-types';
 
 const SingleRecipe = ({ recipe,handleRecipe }) => {
     // console.log(handleRecipe)
@@ -34,5 +35,11 @@ const SingleRecipe = ({ recipe,handleRecipe }) => {
             </div>
     );
 };
+
+SingleRecipe.PropTypes={
+    recipe:PropTypes.array,
+    handleRecipe:PropTypes.func
+
+}
 
 export default SingleRecipe;
