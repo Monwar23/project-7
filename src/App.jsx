@@ -103,7 +103,7 @@ function App() {
                       <td>{index + 1}</td>
                       <td>{item.recipe_name}</td>
                       <td>{item.preparing_time}</td>
-                      <td>{item.calories}</td>
+                      <td>{item.calories}</td> 
                     </tr>
                   ))}
                 </tbody>
