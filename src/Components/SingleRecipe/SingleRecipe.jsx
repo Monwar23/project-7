@@ -18,7 +18,7 @@ const SingleRecipe = ({ recipe,handleRecipe }) => {
                             ))}
                         </ul>
                     </div>
-                    <div className="flex gap-24 ml-3 mt-4">
+                    <div className="flex justify-between mt-4">
                         <div className="flex gap-2">
                             <img src="https://i.ibb.co/89DkqtD/Frame.png" alt="" />
                             <p>{recipe.preparing_time}</p>
